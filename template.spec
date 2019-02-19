@@ -1,4 +1,4 @@
-        ////////////////////
+    
     Patterns(MemoryBist_P1_repair_{{group}}) {
         tester_period : 80ns;
         SimulationOptions {
@@ -12,10 +12,8 @@
                 Controller({{row['icl'] + '.' + row['controller_inst']}}) {
                     AdvancedOptions {
                         test_time_multiplier : 1.5;
-                        {% if row['mem_en']%}
                         enable_memory_list : row['mem_en'] ;
                         freeze_step : 0;
-                        {%endif%}
                     }
                     RepairOptions {
                         check_repair_status : off ;
