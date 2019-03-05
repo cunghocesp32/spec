@@ -36,7 +36,6 @@ pattern_footer = jinja2.Template('''
             } //End Pattern
                 ''')
 controller_body = jinja2.Template('''
-
                 Controller({{icl_id}}.{{controller}}) {
                     AdvancedOptions {
                         test_time_multiplier : 20;
