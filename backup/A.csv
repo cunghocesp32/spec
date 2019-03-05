@@ -1,0 +1,8 @@
+controller,icl,mem,group
+A_MBIST1,A,m1,g1
+A_MBIST1,A,m2,g2
+B_MBIST1,B,m1,g1
+B_MBIST1,B,m2,g2
+B_MBIST1,B,m3,g1
+A_MBIST1,C,m1,g1
+A_MBIST1,C,m2,g1
