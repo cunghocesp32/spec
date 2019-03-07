@@ -1,0 +1,7 @@
+Update 190305 :
+    PASS : PLL MBIST repair r1-r6
+    FAIL : PLL MBIST nonrepair 6 7 10 -> relative to HBM and NWL ( ? ICL bit )
+    Action : group 7 : only have hbm 0,2/ NWL ( sub old group 6 + 7)
+             group 6 : only have hbm 1,3/ NWL
+             group 10 : only have hbm 0,2 
+             group 15 : only have hbm 1,3
