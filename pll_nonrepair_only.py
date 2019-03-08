@@ -8,6 +8,7 @@ icl = pd.read_csv('icl.csv', index_col='icl', delimiter=",")
 block = "zx222016"
 #groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 groups = ["6", "7", "10", "15"]
+groups = ["4", "16"]
 full_spec = ""
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
