@@ -54,7 +54,7 @@ controller_body = jinja2.Template('''
                     }
                 }
                     ''')
-with open("group.tcl", 'w') as tcl:
+with open("pll_repair_group.tcl", 'w') as tcl:
     for gr in groups :
         tcl.write("set OCC_CLK_GATE({})  {} \n".format(gr, "{"))
         group = mem_id[mem_id.group == gr]
@@ -67,7 +67,7 @@ with open("group.tcl", 'w') as tcl:
             tcl.write("    {}.{}_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN \n".format(i, icl.loc[i]["block"]))
         tcl.write("{} \n".format("}"))
 
-with open("fullA.spec", 'w') as full:
+with open("pll_repair_only.spec", 'w') as full:
     for gr in groups :
         outSpec = pattern_header.render(group=gr)
 

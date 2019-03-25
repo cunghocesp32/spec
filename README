@@ -1,6 +1,7 @@
-Update 190307:
-    Group 4 fail VMIN lif1
+Update 190308 :
+    PLL MBIST pass all Vmax , failing Vmin group 4 
     lif1_gate_tessent_mbist_CM0_PLL_PHY_5_MBIST2_NON_REPAIR_BitSlice_40_controller
+    Create group 16 with only 1 controller
 Update 190305 :
     PASS : PLL MBIST repair r1-r6
     FAIL : PLL MBIST nonrepair 6 7 10 -> relative to HBM and NWL ( ? ICL bit )
