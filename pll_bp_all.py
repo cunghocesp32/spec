@@ -6,16 +6,16 @@ import jinja2
 icl = pd.read_csv('icl.csv', index_col='icl', delimiter=",")
 #controller = pd.read_csv('controller.csv', index_col='controller', delimiter=",")
 block = "zx222016"
-groups = ["r1", "r2", "r3", "r4"]
-#groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
+#groups = ["r1", "r2", "r3", "r4"]
+groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"]
 full_spec = ""
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
 
-full_controller  = pd.read_csv('controller.csv', index_col='controller', delimiter=",")
+full_controller  = pd.read_csv('controller_11_bp.csv', index_col='controller', delimiter=",")
 
 pattern_header = jinja2.Template('''
-        Patterns(MemoryBist_P1_bp_{{group}}) {
+        Patterns(p_zx016_mbist_pll_bp_nr_init_gr_{{group}}_190107) {
             tester_period : 80ns;
             ClockPeriods {
                 PCIE_REF_CLK_P : 10ns;
@@ -25,7 +25,7 @@ pattern_header = jinja2.Template('''
             SimulationOptions {
                 monitor_internal_clock_pins : off;
             }
-            TestStep(Mbist_P1_{{group}}) {
+            TestStep(p_zx016_mbist_pll_bp_nr_init_gr_{{group}}_190107) {
                 MemoryBist {
                 run_mode : hw_default;
                 reduced_address_count : off;
