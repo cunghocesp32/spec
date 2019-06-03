@@ -3,7 +3,7 @@ import jinja2
 
 #controller = pd.read_csv('controller.csv', index_col='controller', delimiter=",")
 block = "zx222016"
-groups = ["r_28"]
+groups = ["b0", "b1", "b2", "b3"]
 #groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
