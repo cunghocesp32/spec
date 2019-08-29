@@ -7,7 +7,6 @@ block = "zx222016"
 groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
 
 #groups = ["6", "7", "10", "15"]
-groups = ["7"]
 full_spec = ""
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")

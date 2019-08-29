@@ -3,7 +3,7 @@ import jinja2
 
 #controller = pd.read_csv('controller.csv', index_col='controller', delimiter=",")
 block = "zx222016"
-groups = ["r_112"]
+groups = ["r128"]
 #groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
@@ -13,7 +13,7 @@ icl = pd.read_csv('icl.csv', index_col='icl', delimiter=",")
     NOTE THAT ONLY USE mem_id.csv FOR MEM PLL REPAIR
         190305 : pass group r1-r6
 """
-mem_id  = pd.read_csv('mem_id_pkt_recv.csv', delimiter=",")
+mem_id  = pd.read_csv('mem_id_stat.csv', delimiter=",")
 #full_controller[full_controller.repair][full_controller.block == "sa_asm"]
 #full_controller[full_controller.repair == True][full_controller.block == "cluster"]['controller_inst']
 outSpec = ""
@@ -41,7 +41,7 @@ pattern_footer = jinja2.Template('''
 controller_body = jinja2.Template('''
                 Controller({{icl_id}}.{{controller}}) {
                     AdvancedOptions {
-                        test_time_multiplier : ;
+                        test_time_multiplier : 20;
                         enable_memory_list : {{mem_en}} ;
                         freeze_step : 0;
                     }
@@ -67,7 +67,7 @@ with open("pll_repair_group.tcl", 'w') as tcl:
             tcl.write("    {}.{}_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN \n".format(i, icl.loc[i]["block"]))
         tcl.write("{} \n".format("}"))
 
-with open("pll_repair_only_pkt_recv_112.spec", 'w') as full:
+with open("pll_repair_only_stat_128.spec", 'w') as full:
     for gr in groups :
         outSpec = pattern_header.render(group=gr)
 
