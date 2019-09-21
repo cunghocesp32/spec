@@ -5,6 +5,9 @@ import jinja2
 block = "zx222016"
 groups = ["arm_1", "arm_2", "arm_3"]
 groups = ["sram_8192x13", "rf_512x130"]
+groups = ["opro_sr_211_uhs", "qmu_rfinst_4096x29x16", "cluster_rf_spA_128x122", "cluster_sram_spA_2048x80"]
+groups = ["arm_1", "arm_2", "arm_3", "arm_4", "arm_5", "arm_6", "arm_7", "arm_8", "arm_9", "arm_10", "arm_11"]
+groups = ["sram_8192x13", "rf_512x130", "sa_mac_top_rf_2pA"]
 #groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
@@ -14,8 +17,8 @@ icl = pd.read_csv('icl.csv', index_col='icl', delimiter=",")
     NOTE THAT ONLY USE mem_id.csv FOR MEM PLL REPAIR
         190305 : pass group r1-r6
 """
-#mem_id  = pd.read_csv('mem_id_arm.csv', delimiter=",")
-mem_id  = pd.read_csv('mem_id_arm_rf.csv', delimiter=",")
+file_target = "mem_id_arm_rf"
+mem_id  = pd.read_csv(file_target+ '.csv', delimiter=",")
 #full_controller[full_controller.repair][full_controller.block == "sa_asm"]
 #full_controller[full_controller.repair == True][full_controller.block == "cluster"]['controller_inst']
 outSpec = ""
@@ -43,7 +46,7 @@ pattern_footer = jinja2.Template('''
 controller_body = jinja2.Template('''
                 Controller({{icl_id}}.{{controller}}) {
                     AdvancedOptions {
-                        test_time_multiplier : 20 ;
+                        test_time_multiplier : 1500 ;
                         enable_memory_list : {{mem_en}} ;
                         freeze_step : 0;
                     }
@@ -56,7 +59,7 @@ controller_body = jinja2.Template('''
                     }
                 }
                     ''')
-with open("pll_repair_arm_rf.tcl", 'w') as tcl:
+with open(file_target + ".tcl", 'w') as tcl:
     for gr in groups :
         tcl.write("set OCC_CLK_GATE({})  {} \n".format(gr, "{"))
         group = mem_id[mem_id.group == gr]
@@ -69,7 +72,7 @@ with open("pll_repair_arm_rf.tcl", 'w') as tcl:
             tcl.write("    {}.{}_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN \n".format(i, icl.loc[i]["block"]))
         tcl.write("{} \n".format("}"))
 
-with open("pll_repair_arm_rf.spec", 'w') as full:
+with open(file_target + ".spec", 'w') as full:
     for gr in groups :
         outSpec = pattern_header.render(group=gr)
 

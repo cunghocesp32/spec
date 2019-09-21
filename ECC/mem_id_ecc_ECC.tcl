@@ -1,0 +1,65 @@
+set OCC_CLK_GATE(ECC_nr_ss_1)  { 
+    u_hcm_lif_u0_lif0_u0.lif0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif0_u1.lif02_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif1_u0.lif1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif12_u0.lif12_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif2_u0.lif2_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lifcc_u0.lifcc_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_nppu_u0_pkt_recv_u0.pkt_recv_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_qmu_top_u0.qmu_u0.qmu_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_qmu_top_u0.qmu_u1.qmu_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_qmu_top_u0.qmu_top_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_sa_u0_sa_asm_u0.sa_asm_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_sa_u0_sa_xsw_u0.sa_xsw_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_shap_u0.shap_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_tm_others_u0.tm_others_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+} 
+set OCC_CLK_GATE(ECC_nr_arm_1)  { 
+    u_hcm_lif_u0_fxsch_u0_fxsch_ipro_crm_top_u0.fxsch_ipro_crm_top_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_hbm_u0_hbm_octa_channel_u0.hbm_octa_channel_v0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_hbm_u0_hbm_octa_channel_u2.hbm_octa_channel_v0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_hbm_u0_hbm_octa_channel_u1.hbm_octa_channel_v1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_hbm_u0_hbm_octa_channel_u3.hbm_octa_channel_v1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif0_u0.lif0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif0_u1.lif02_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif1_u0.lif1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif12_u0.lif12_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lifcc_u0.lifcc_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_rce_24_ch_u0_falcon_top_v0_u0_pcs_top_v0_u0_pcs.pcs_v0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_rce_24_ch_1_u0_falcon_top_v1_u0_pcs_top_v1_u0_pcs.pcs_v1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_nppu_u0_pkt_recv_u0.pkt_recv_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_qmu_top_u0.qmu_u0.qmu_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_qmu_top_u0.qmu_u1.qmu_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_sa_u0_sa_asm_u0.sa_asm_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_sa_u0_sa_mac_top_u0.sa_mac_top_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_sa_u0_sa_mac_top_u1.sa_mac_top_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_sa_u0_sa_xsw_u0.sa_xsw_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_se_u0_se_ex_u0_se_schd_other_u0.se_schd_other_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_se_u0_se_ex_u0_se_smmu1_u0.se_smmu1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_shap_u0.shap_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_tm_others_u0.tm_others_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+} 
+set OCC_CLK_GATE(ECC_repair_arm_1)  { 
+    u_hcm_lif_u0_lifcc_u0.lifcc_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_sa_u0_sa_asm_u0.sa_asm_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_sa_u0_sa_xsw_u0.sa_xsw_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_shap_u0.shap_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+} 
+set OCC_CLK_GATE(ECC_repair_ss_1)  { 
+    u_hcm_tm_u0_crdt_u0.crdt_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif0_u0.lif0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif0_u1.lif02_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif1_u0.lif1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif12_u0.lif12_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif2_u0.lif2_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lifcc_u0.lifcc_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_nppu_u0_odma_u0.odma_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_nppu_u0_pktrx_u0.pktrx_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_ppu_u0.ppu_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_qmu_top_u0.qmu_u1.qmu_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_qmu_top_u0.qmu_u0.qmu_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_qmu_top_u0.qmu_top_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_sa_u0_sa_asm_u0.sa_asm_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_shap_u0.shap_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_se_u0_stat_u0.stat_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+} 
