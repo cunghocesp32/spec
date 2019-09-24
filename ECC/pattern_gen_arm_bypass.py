@@ -47,7 +47,7 @@ pattern_footer = jinja2.Template('''
 controller_body = jinja2.Template('''
                 Controller({{icl_id}}.{{controller}}) {
                     AdvancedOptions {
-                        test_time_multiplier : 1200 ;
+                        test_time_multiplier : 1500 ;
                         enable_memory_list : {{mem_en}} ;
                         freeze_step : 0;
                     }
