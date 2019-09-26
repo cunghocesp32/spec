@@ -8,6 +8,7 @@ groups = ["sram_8192x13", "rf_512x130"]
 groups = ["opro_sr_211_uhs", "qmu_rfinst_4096x29x16", "cluster_rf_spA_128x122", "cluster_sram_spA_2048x80"]
 groups = ["arm_1", "arm_2", "arm_3", "arm_4", "arm_5", "arm_6", "arm_7", "arm_8", "arm_9", "arm_10", "arm_11"]
 groups = ["sram_8192x13", "rf_512x130", "sa_mac_top_rf_2pA"]
+groups = ["ARM_nr_2pA_192x128", "ESI_nr_211_512x30", "ESI_nr_422_4096x18", "ESI_repair_211_8192x20"]
 #groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
@@ -18,6 +19,7 @@ icl = pd.read_csv('icl.csv', index_col='icl', delimiter=",")
         190305 : pass group r1-r6
 """
 file_target = "mem_id_arm_rf"
+date = "4group_190926"
 mem_id  = pd.read_csv(file_target+ '.csv', delimiter=",")
 #full_controller[full_controller.repair][full_controller.block == "sa_asm"]
 #full_controller[full_controller.repair == True][full_controller.block == "cluster"]['controller_inst']
@@ -59,7 +61,7 @@ controller_body = jinja2.Template('''
                     }
                 }
                     ''')
-with open(file_target + ".tcl", 'w') as tcl:
+with open(file_target + date + ".tcl", 'w') as tcl:
     for gr in groups :
         tcl.write("set OCC_CLK_GATE({})  {} \n".format(gr, "{"))
         group = mem_id[mem_id.group == gr]
@@ -72,7 +74,7 @@ with open(file_target + ".tcl", 'w') as tcl:
             tcl.write("    {}.{}_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN \n".format(i, icl.loc[i]["block"]))
         tcl.write("{} \n".format("}"))
 
-with open(file_target + ".spec", 'w') as full:
+with open(file_target + date +".spec", 'w') as full:
     for gr in groups :
         outSpec = pattern_header.render(group=gr)
 
