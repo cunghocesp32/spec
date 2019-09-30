@@ -8,7 +8,8 @@ groups = ["rf_2pA_nr_1", "rf_2pA_nr_2", "rf_2pA_nr_3", "rf_2pA_nr_4", "rf_2pA_nr
 groups = ["ss_nr_1", "ss_nr_2", "ss_repair_1", "ss_repair_2"]
 groups = ["ECC_nr_ss_1", "ECC_nr_arm_1", "ECC_repair_arm_1" , "ECC_repair_ss_1"]
 groups = ["rf_2pA_nr_1", "rf_2pA_nr_8", "rf_2pA_nr_4", "rf_2pA_nr_5", "rf_2pA_nr_7"]
-groups = ["rf_2pA_nr_1", "rf_2pA_nr_4", "rf_2pA_nr_5"]
+groups = ["rf_2pA_nr_1", "rf_2pA_nr_4", "rf_2pA_nr_cluster_u10"]
+
 #groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
