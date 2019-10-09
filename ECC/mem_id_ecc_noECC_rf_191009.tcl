@@ -1,0 +1,24 @@
+set OCC_CLK_GATE(rf_2pA_nr_1)  { 
+    u_hcm_se_u0_se_ex_u0_se_alg_top_u0_alg_altro_inst.alg_altro_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_rce_24_ch_1_u0_falcon_top_v1_u0_flexe_v1_u0_flexe_oh_v1_u0.flexe_oh_v1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+} 
+set OCC_CLK_GATE(rf_2pA_nr_1_v0)  { 
+    u_hcm_lif_u0_rce_24_ch_u0_falcon_top_v0_u0_pcs_top_v0_u0_fec_fec_tx_v0.fec_tx_v0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif0_u0.lif0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+} 
+set OCC_CLK_GATE(rf_2pA_nr_1_v1)  { 
+    u_hcm_lif_u0_rce_24_ch_1_u0_falcon_top_v1_u0_pcs_top_v1_u0_fec_fec_tx.fec_tx_v1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_lif0_u1.lif02_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+} 
+set OCC_CLK_GATE(rf_2pA_nr_4)  { 
+    u_hcm_lif_u0_rce_24_ch_1_u0_falcon_top_v1_u0_pcs_top_v1_u0_pcs.pcs_v1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_rce_24_ch_u0_falcon_top_v0_u0_pcs_top_v0_u0_pcs.pcs_v0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_nppu_u0_odma_u0.odma_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_nppu_u0_pkt_recv_u0.pkt_recv_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+} 
+set OCC_CLK_GATE(rf_2pA_nr_7)  { 
+    u_hcm_lif_u0_rce_24_ch_u0_falcon_top_v0_u0_mac_top_v0_u0_mac_rx_top_v0_u0_mac_rx_adapter_wrapper_0_v0_u0.mac_rx_adapter_wrapper_0_v0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_rce_24_ch_u0_falcon_top_v0_u0_mac_top_v0_u0_mac_rx_top_v0_u0_mac_rx_wrapper_v0_u0.mac_rx_wrapper_v0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_crdt_u0.crdt_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_lif_u0_rce_24_ch_1_u0_falcon_top_v1_u0_flexe_v1_u0_flexe_tx_v1_u0_flexe_tx_client_fifo_v1_u0_flexe_tx_client_fifo_l_v1_u0.flexe_tx_client_fifo_l_v1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+} 
