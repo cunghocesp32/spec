@@ -10,6 +10,7 @@ groups = ["ECC_nr_ss_1", "ECC_nr_arm_1", "ECC_repair_arm_1" , "ECC_repair_ss_1"]
 groups = ["rf_2pA_nr_1", "rf_2pA_nr_8", "rf_2pA_nr_4", "rf_2pA_nr_5", "rf_2pA_nr_7"]
 groups = ["rf_2pA_nr_1", "rf_2pA_nr_4", "rf_2pA_nr_cluster_u10"]
 groups = ["rf_2pA_nr_1", "rf_2pA_nr_1_v0", "rf_2pA_nr_1_v1", "rf_2pA_nr_4", "rf_2pA_nr_7"]
+groups = ["rf_2pA_nr_9", "rf_2pA_nr_10"]
 
 #groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
@@ -21,7 +22,7 @@ icl = pd.read_csv('icl.csv', index_col='icl', delimiter=",")
         190305 : pass group r1-r6
 """
 file_target = "mem_id_ecc"
-type_ecc = "noECC_rf_191009"
+type_ecc = "noECC_rf_191011"
 mem_id  = pd.read_csv(file_target+ '.csv', delimiter=",")
 #full_controller[full_controller.repair][full_controller.block == "sa_asm"]
 #full_controller[full_controller.repair == True][full_controller.block == "cluster"]['controller_inst']
