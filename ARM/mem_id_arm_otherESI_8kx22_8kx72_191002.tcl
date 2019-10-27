@@ -8,3 +8,7 @@ set OCC_CLK_GATE(ESI_sr_211_uhs_8kx22_hd_8kx72)  {
     u_hcm_tm_u0_qmu_top_u0.qmu_u0.qmu_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
     u_hcm_tm_u0_shap_u0.shap_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
 } 
+set OCC_CLK_GATE(ESI_rf_422_2048x8)  { 
+    u_hcm_tm_u0_qmu_top_u0.qmu_top_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_tm_u0_shap_u0.shap_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+} 

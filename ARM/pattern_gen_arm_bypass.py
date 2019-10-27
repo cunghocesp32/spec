@@ -9,7 +9,7 @@ groups = ["opro_sr_211_uhs", "qmu_rfinst_4096x29x16", "cluster_rf_spA_128x122", 
 groups = ["arm_1", "arm_2", "arm_3", "arm_4", "arm_5", "arm_6", "arm_7", "arm_8", "arm_9", "arm_10", "arm_11"]
 groups = ["sram_8192x13", "rf_512x130", "sa_mac_top_rf_2pA"]
 groups = ["ARM_nr_2pA_192x128", "ESI_nr_211_512x30", "ESI_nr_422_4096x18", "ESI_repair_211_8192x20"]
-groups = ["ESI_sr_211_uhs_8kx22_hd_8kx72"]
+groups = ["ESI_sr_211_uhs_8kx22_hd_8kx72", "ESI_rf_422_2048x8"]
 #groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
@@ -21,7 +21,7 @@ icl = pd.read_csv('icl.csv', index_col='icl', delimiter=",")
 """
 file_target = "mem_id_arm_other"
 date = "4group_190926"
-date = "ESI_8kx22_8kx72_191002"
+date = "ESI_8kx22_8kx72_191002" 
 mem_id  = pd.read_csv(file_target+ '.csv', delimiter=",")
 #full_controller[full_controller.repair][full_controller.block == "sa_asm"]
 #full_controller[full_controller.repair == True][full_controller.block == "cluster"]['controller_inst']

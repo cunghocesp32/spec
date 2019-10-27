@@ -483,4 +483,128 @@
                 } // End TestStep
             } //End Pattern
                 
+        Patterns(MemoryBist_ESI_rf_422_2048x8) {
+            tester_period : 80ns;
+            ClockPeriods {
+                PCIE_REF_CLK_P : 10ns;
+                SYNC_CLK : 8ns;
+                PCI_DBG_DTA[9] : 10ns;
+            }
+            SimulationOptions {
+                monitor_internal_clock_pins : off;
+            }
+            TestStep(Mbist_ESI_rf_422_2048x8_bp) {
+                MemoryBist {
+                run_mode : run_time_prog;
+                reduced_address_count : off;
+                
+                Controller(u_hcm_tm_u0_qmu_top_u0.qmu_share_mem_u0_qmu_share_mem1_u0_qsch_crs_renew_ram_u0_qmu_top_gate_tessent_mbist_sys_clk_MBIST70_NON_REPAIR_BitSlice_8_controller_inst) {
+                    AdvancedOptions {
+                        test_time_multiplier : 1500 ;
+                        enable_memory_list : m1,m2,m3,m4 ;
+                        freeze_step : 0;
+                    }
+                    RepairOptions {
+                        check_repair_status : off ;
+                    }
+                    DiagnosisOptions {
+                        compare_go : on;
+                        compare_go_id : on;
+                    }
+                }
+                    
+                Controller(u_hcm_tm_u0_qmu_top_u0.qmu_share_mem_u0_qmu_share_mem1_u0_qsch_crs_send_ram_u0_qmu_top_gate_tessent_mbist_sys_clk_MBIST73_NON_REPAIR_BitSlice_8_controller_inst) {
+                    AdvancedOptions {
+                        test_time_multiplier : 1500 ;
+                        enable_memory_list : m1,m2,m3,m4 ;
+                        freeze_step : 0;
+                    }
+                    RepairOptions {
+                        check_repair_status : off ;
+                    }
+                    DiagnosisOptions {
+                        compare_go : on;
+                        compare_go_id : on;
+                    }
+                }
+                    
+                Controller(u_hcm_tm_u0_qmu_top_u0.qmu_share_mem_u0_qmu_share_mem2_u0_qmu_cache_index_ram_u0_mulbits_2r2w_flag_ram_wrapper_u0_qmu_top_gate_tessent_mbist_sys_clk_MBIST77_NON_REPAIR_BitSlice_8_controller_inst) {
+                    AdvancedOptions {
+                        test_time_multiplier : 1500 ;
+                        enable_memory_list : m1,m2,m3,m4 ;
+                        freeze_step : 0;
+                    }
+                    RepairOptions {
+                        check_repair_status : off ;
+                    }
+                    DiagnosisOptions {
+                        compare_go : on;
+                        compare_go_id : on;
+                    }
+                }
+                    
+                Controller(u_hcm_tm_u0_qmu_top_u0.qmu_share_mem_u0_qmu_share_mem2_u0_qmu_cache_index_ram_u0_mulbits_2r2w_flag_ram_wrapper_u0_qmu_top_gate_tessent_mbist_sys_clk_MBIST78_NON_REPAIR_BitSlice_8_controller_inst) {
+                    AdvancedOptions {
+                        test_time_multiplier : 1500 ;
+                        enable_memory_list : m1,m2 ;
+                        freeze_step : 0;
+                    }
+                    RepairOptions {
+                        check_repair_status : off ;
+                    }
+                    DiagnosisOptions {
+                        compare_go : on;
+                        compare_go_id : on;
+                    }
+                }
+                    
+                Controller(u_hcm_tm_u0_qmu_top_u0.qmu_share_mem_u0_qmu_share_mem1_u0_qsch_crs_renew_ram_u0_qmu_top_gate_tessent_mbist_sys_clk_MBIST148_NON_REPAIR_BitSlice_8_controller_inst) {
+                    AdvancedOptions {
+                        test_time_multiplier : 1500 ;
+                        enable_memory_list : m1,m2 ;
+                        freeze_step : 0;
+                    }
+                    RepairOptions {
+                        check_repair_status : off ;
+                    }
+                    DiagnosisOptions {
+                        compare_go : on;
+                        compare_go_id : on;
+                    }
+                }
+                    
+                Controller(u_hcm_tm_u0_qmu_top_u0.qmu_share_mem_u0_qmu_share_mem1_u0_qsch_crs_send_ram_u0_qmu_top_gate_tessent_mbist_sys_clk_MBIST149_NON_REPAIR_BitSlice_8_controller_inst) {
+                    AdvancedOptions {
+                        test_time_multiplier : 1500 ;
+                        enable_memory_list : m1,m2 ;
+                        freeze_step : 0;
+                    }
+                    RepairOptions {
+                        check_repair_status : off ;
+                    }
+                    DiagnosisOptions {
+                        compare_go : on;
+                        compare_go_id : on;
+                    }
+                }
+                    
+                Controller(u_hcm_tm_u0_shap_u0.shap_share_ram_man_u0_shap_flow_512k_wrapper_u0_mulbits_2r2w_flag_ram_wrapper_u0_shap_gate_tessent_mbist_sys_clk_MBIST35_NON_REPAIR_BitSlice_8_controller_inst) {
+                    AdvancedOptions {
+                        test_time_multiplier : 1500 ;
+                        enable_memory_list : m1,m2,m3,m4,m5,m6 ;
+                        freeze_step : 0;
+                    }
+                    RepairOptions {
+                        check_repair_status : off ;
+                    }
+                    DiagnosisOptions {
+                        compare_go : on;
+                        compare_go_id : on;
+                    }
+                }
+                    
+                    } // End ESI_rf_422_2048x8
+                } // End TestStep
+            } //End Pattern
+                
 //End

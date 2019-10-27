@@ -4,6 +4,8 @@ import jinja2
 #controller = pd.read_csv('controller.csv', index_col='controller', delimiter=",")
 block = "zx222016"
 groups = ["r1", "r2", "r3", "r4", "r5", "r6"]
+groups = ["r2", "r3", "r2_etcam_u2", "r2_odma", "r3_smmu0"]
+date = "191024"
 #groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
@@ -54,7 +56,7 @@ controller_body = jinja2.Template('''
                     }
                 }
                     ''')
-with open("pll_repair_group.tcl", 'w') as tcl:
+with open("pll_repair_" + date + ".tcl", 'w') as tcl:
     for gr in groups :
         tcl.write("set OCC_CLK_GATE({})  {} \n".format(gr, "{"))
         group = mem_id[mem_id.group == gr]
@@ -67,7 +69,7 @@ with open("pll_repair_group.tcl", 'w') as tcl:
             tcl.write("    {}.{}_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN \n".format(i, icl.loc[i]["block"]))
         tcl.write("{} \n".format("}"))
 
-with open("pll_repair_only.spec", 'w') as full:
+with open("pll_repair_only_" + date + ".spec", 'w') as full:
     for gr in groups :
         outSpec = pattern_header.render(group=gr)
 
