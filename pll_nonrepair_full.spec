@@ -24,9 +24,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -40,9 +37,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -56,9 +50,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -72,9 +63,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -88,9 +76,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -104,9 +89,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -120,9 +102,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -136,9 +115,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -152,9 +128,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -168,9 +141,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -184,9 +154,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -200,9 +167,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -216,9 +180,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -232,9 +193,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -248,9 +206,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -264,9 +219,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -280,9 +232,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -296,9 +245,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -312,9 +258,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -328,9 +271,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -344,9 +284,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -360,9 +297,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -376,9 +310,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -392,9 +323,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -408,9 +336,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -424,9 +349,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -440,9 +362,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -456,9 +375,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -472,9 +388,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -488,9 +401,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -504,9 +414,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -520,9 +427,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -536,9 +440,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -552,9 +453,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -568,9 +466,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -584,9 +479,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -600,9 +492,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -616,9 +505,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -632,9 +518,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -648,9 +531,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -664,9 +544,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -680,9 +557,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -696,9 +570,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -712,9 +583,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -728,9 +596,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -744,9 +609,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -760,9 +622,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -776,9 +635,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -792,9 +648,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -808,9 +661,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -824,9 +674,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -840,9 +687,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -856,9 +700,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -872,9 +713,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -888,9 +726,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -904,9 +739,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -920,9 +752,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -936,9 +765,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -952,9 +778,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -968,9 +791,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -984,9 +804,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1000,9 +817,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1016,9 +830,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1032,9 +843,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1048,9 +856,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1064,9 +869,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1080,9 +882,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1096,9 +895,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1112,9 +908,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1128,9 +921,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1144,9 +934,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1160,9 +947,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1176,9 +960,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1192,9 +973,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1208,9 +986,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1224,9 +999,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1240,9 +1012,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1256,9 +1025,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1272,9 +1038,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1288,9 +1051,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1304,9 +1064,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1320,9 +1077,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1336,9 +1090,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1352,9 +1103,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1368,9 +1116,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1384,9 +1129,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1400,9 +1142,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1416,9 +1155,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1432,9 +1168,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1448,9 +1181,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1464,9 +1194,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1480,9 +1207,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1496,9 +1220,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1512,9 +1233,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1528,9 +1246,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1544,9 +1259,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1560,9 +1272,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1576,9 +1285,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1592,9 +1298,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1608,9 +1311,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1624,9 +1324,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1640,9 +1337,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1656,9 +1350,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1672,9 +1363,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1688,9 +1376,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1704,9 +1389,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1720,9 +1402,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1736,9 +1415,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1752,9 +1428,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1768,9 +1441,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1784,9 +1454,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1800,9 +1467,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1816,9 +1480,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1832,9 +1493,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1848,9 +1506,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1864,9 +1519,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1880,9 +1532,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1896,9 +1545,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1912,9 +1558,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1928,9 +1571,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1944,9 +1584,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1960,9 +1597,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1976,9 +1610,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -1992,9 +1623,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2008,9 +1636,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2024,9 +1649,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2040,9 +1662,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2056,9 +1675,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2072,9 +1688,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2088,9 +1701,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2104,9 +1714,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2120,9 +1727,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2136,9 +1740,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2152,9 +1753,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2168,9 +1766,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2184,9 +1779,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2200,9 +1792,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2216,9 +1805,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2232,9 +1818,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2248,9 +1831,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2264,9 +1844,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2280,9 +1857,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2296,9 +1870,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2312,9 +1883,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2328,9 +1896,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2344,9 +1909,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2360,9 +1922,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2376,9 +1935,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2392,9 +1948,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2408,9 +1961,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2424,9 +1974,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2440,9 +1987,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2456,9 +2000,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2472,9 +2013,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2488,9 +2026,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2504,9 +2039,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2520,9 +2052,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2536,9 +2065,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2552,9 +2078,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2568,9 +2091,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2584,9 +2104,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2600,9 +2117,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2616,9 +2130,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2632,9 +2143,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2648,9 +2156,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2664,9 +2169,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2680,9 +2182,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2696,9 +2195,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2712,9 +2208,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2728,9 +2221,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2744,9 +2234,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2760,9 +2247,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2776,9 +2260,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2792,9 +2273,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2808,9 +2286,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2824,9 +2299,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2840,9 +2312,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2856,9 +2325,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2872,9 +2338,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2888,9 +2351,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2904,9 +2364,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2920,9 +2377,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2936,9 +2390,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2952,9 +2403,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2968,9 +2416,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -2984,9 +2429,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3000,9 +2442,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3016,9 +2455,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3032,9 +2468,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3048,9 +2481,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3064,9 +2494,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3080,9 +2507,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3096,9 +2520,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3112,9 +2533,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3128,9 +2546,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3144,9 +2559,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3160,9 +2572,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3176,9 +2585,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3192,9 +2598,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3208,9 +2611,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3224,9 +2624,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3240,9 +2637,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3256,9 +2650,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3272,9 +2663,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3288,9 +2676,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3304,9 +2689,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3320,9 +2702,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3336,9 +2715,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3352,9 +2728,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3368,9 +2741,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3384,9 +2754,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3400,9 +2767,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3416,9 +2780,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3432,9 +2793,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3448,9 +2806,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3464,9 +2819,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3480,9 +2832,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3496,9 +2845,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3512,9 +2858,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3528,9 +2871,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3544,9 +2884,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3560,9 +2897,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3576,9 +2910,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3592,9 +2923,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3608,9 +2936,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3624,9 +2949,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3640,9 +2962,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3656,9 +2975,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3672,9 +2988,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3688,9 +3001,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3704,9 +3014,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3720,9 +3027,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3736,9 +3040,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3752,9 +3053,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3768,9 +3066,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3784,9 +3079,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3800,9 +3092,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3816,9 +3105,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3832,9 +3118,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3848,9 +3131,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3864,9 +3144,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3880,9 +3157,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3896,9 +3170,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3912,9 +3183,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3928,9 +3196,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3944,9 +3209,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3960,9 +3222,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3976,9 +3235,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -3992,9 +3248,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4008,9 +3261,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4024,9 +3274,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4040,9 +3287,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4056,9 +3300,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4072,9 +3313,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4088,9 +3326,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4104,9 +3339,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4120,9 +3352,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4136,9 +3365,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4152,9 +3378,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4168,9 +3391,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4184,9 +3404,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4200,9 +3417,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4216,9 +3430,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4232,9 +3443,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4248,9 +3456,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4264,9 +3469,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4280,9 +3482,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4296,9 +3495,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4312,9 +3508,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4328,9 +3521,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4344,9 +3534,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4360,9 +3547,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4376,9 +3560,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4392,9 +3573,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4408,9 +3586,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4424,9 +3599,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4440,9 +3612,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4456,9 +3625,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4472,9 +3638,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4488,9 +3651,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4504,9 +3664,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4520,9 +3677,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4536,9 +3690,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4552,9 +3703,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4568,9 +3716,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4584,9 +3729,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4600,9 +3742,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4616,9 +3755,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4632,9 +3768,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4648,9 +3781,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4664,9 +3794,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4699,9 +3826,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4715,9 +3839,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4731,9 +3852,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4747,9 +3865,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4763,9 +3878,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4779,9 +3891,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4795,9 +3904,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4811,9 +3917,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4827,9 +3930,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4843,9 +3943,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4859,9 +3956,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4875,9 +3969,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4891,9 +3982,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4907,9 +3995,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4923,9 +4008,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     
@@ -4939,9 +4021,6 @@
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     

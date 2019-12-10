@@ -45,9 +45,6 @@ controller_body = jinja2.Template('''
                     DiagnosisOptions {
                         compare_go : on;
                         compare_go_id : on;
-                        StopOnErrorOptions {
-                            failure_limit : auto_increment ;
-                        }
                     }
                 }
                     ''')

@@ -10,6 +10,9 @@ groups = ["arm_1", "arm_2", "arm_3", "arm_4", "arm_5", "arm_6", "arm_7", "arm_8"
 groups = ["sram_8192x13", "rf_512x130", "sa_mac_top_rf_2pA"]
 groups = ["ARM_nr_2pA_192x128", "ESI_nr_211_512x30", "ESI_nr_422_4096x18", "ESI_repair_211_8192x20"]
 groups = ["ESI_sr_211_uhs_8kx22_hd_8kx72", "ESI_rf_422_2048x8"]
+groups = ["ppu_mf_out_rf_2pA_16x160"]
+groups = ["cluster_rf_2pA_32x160"]
+groups = ["smmu0_sram_spA_4096x136", "ipro_rf_2pA_96x160", "tm_others_256x206"]
 #groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
@@ -19,9 +22,12 @@ icl = pd.read_csv('icl.csv', index_col='icl', delimiter=",")
     NOTE THAT ONLY USE mem_id.csv FOR MEM PLL REPAIR
         190305 : pass group r1-r6
 """
-file_target = "mem_id_arm_other"
+file_target = "mem_id_arm_rf"
 date = "4group_190926"
 date = "ESI_8kx22_8kx72_191002" 
+date = "ppu_mf_out_rf_2pA_16x160_191112"
+date = "cluster_32x160_021219"
+date = "_smmu0_ipro_tmothers_191209"
 mem_id  = pd.read_csv(file_target+ '.csv', delimiter=",")
 #full_controller[full_controller.repair][full_controller.block == "sa_asm"]
 #full_controller[full_controller.repair == True][full_controller.block == "cluster"]['controller_inst']
