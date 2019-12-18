@@ -12,6 +12,7 @@ groups = ["rf_2pA_nr_1", "rf_2pA_nr_4", "rf_2pA_nr_cluster_u10"]
 groups = ["rf_2pA_nr_1", "rf_2pA_nr_1_v0", "rf_2pA_nr_1_v1", "rf_2pA_nr_4", "rf_2pA_nr_7"]
 groups = ["rf_2pA_nr_9", "rf_2pA_nr_10"]
 groups = ["rf_2pA_nr_1", "rf_2pA_nr_1_oh_v1"]
+groups = ["ss_nr_1", "ss_nr_2", "ss_repair_1", "ss_repair_2"]
 
 
 #groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
@@ -25,6 +26,7 @@ icl = pd.read_csv('icl.csv', index_col='icl', delimiter=",")
 """
 file_target = "mem_id_ecc"
 type_ecc = "noECC_rf_191014"
+type_ecc = "noECC_no422_844_191218"
 mem_id  = pd.read_csv(file_target+ '.csv', delimiter=",")
 #full_controller[full_controller.repair][full_controller.block == "sa_asm"]
 #full_controller[full_controller.repair == True][full_controller.block == "cluster"]['controller_inst']
@@ -53,7 +55,7 @@ pattern_footer = jinja2.Template('''
 controller_body = jinja2.Template('''
                 Controller({{icl_id}}.{{controller}}) {
                     AdvancedOptions {
-                        test_time_multiplier : 1500 ;
+                        test_time_multiplier : 50 ;
                         enable_memory_list : {{mem_en}} ;
                         freeze_step : 0;
                     }

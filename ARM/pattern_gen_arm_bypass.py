@@ -13,6 +13,7 @@ groups = ["ESI_sr_211_uhs_8kx22_hd_8kx72", "ESI_rf_422_2048x8"]
 groups = ["ppu_mf_out_rf_2pA_16x160"]
 groups = ["cluster_rf_2pA_32x160"]
 groups = ["smmu0_sram_spA_4096x136", "ipro_rf_2pA_96x160", "tm_others_256x206"]
+groups = ["qmu_esi_8192x25"]
 #groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14"]
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
@@ -28,6 +29,7 @@ date = "ESI_8kx22_8kx72_191002"
 date = "ppu_mf_out_rf_2pA_16x160_191112"
 date = "cluster_32x160_021219"
 date = "_smmu0_ipro_tmothers_191209"
+date = "_qmu_esi_8192x25_191212"
 mem_id  = pd.read_csv(file_target+ '.csv', delimiter=",")
 #full_controller[full_controller.repair][full_controller.block == "sa_asm"]
 #full_controller[full_controller.repair == True][full_controller.block == "cluster"]['controller_inst']
@@ -56,7 +58,7 @@ pattern_footer = jinja2.Template('''
 controller_body = jinja2.Template('''
                 Controller({{icl_id}}.{{controller}}) {
                     AdvancedOptions {
-                        test_time_multiplier : 1500 ;
+                        test_time_multiplier : 50 ;
                         enable_memory_list : {{mem_en}} ;
                         freeze_step : 0;
                     }
