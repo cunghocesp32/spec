@@ -9,8 +9,12 @@ groups = ["14", "14_mac_tx_v0"]
 groups = ["6", "7", "10", "15"]
 # Trial for u_scan_937 -191210
 groups = ["1", "1_pll937"]
-
+# Update for 15groups exclude u_scan_937
+groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
+groups = ["pll_937"]
 date = "191210_uscan937"
+date = "191210_exclude_uscan937"
+date = "191212_uscan937"
 full_spec = ""
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
@@ -41,7 +45,7 @@ pattern_footer = jinja2.Template('''
 controller_body = jinja2.Template('''
                 Controller({{icl_id}}.{{controller}}) {
                     AdvancedOptions {
-                        test_time_multiplier : 2;
+                        test_time_multiplier : 5;
                     }
                     RepairOptions {
                         check_repair_status : off ;
