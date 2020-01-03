@@ -1,0 +1,9 @@
+set OCC_CLK_GATE(st_mmu_wr_pack_rf_2pA_16x150)  { 
+    u_hcm_mmu_u0_st_mmu_u0_st_mmu_wr_pack_u0.st_mmu_wr_pack_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+} 
+set OCC_CLK_GATE(hbm_rf_2pA_128x130)  { 
+    u_hcm_hbm_u0_hbm_octa_channel_u0.hbm_octa_channel_v0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_hbm_u0_hbm_octa_channel_u2.hbm_octa_channel_v0_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_hbm_u0_hbm_octa_channel_u1.hbm_octa_channel_v1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+    u_hcm_hbm_u0_hbm_octa_channel_u3.hbm_octa_channel_v1_gate_tessent_tdr_SCAN_TDR_inst.OCC_CLK_GATE_EN 
+} 
