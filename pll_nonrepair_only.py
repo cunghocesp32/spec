@@ -5,9 +5,10 @@ icl = pd.read_csv('icl.csv', index_col='icl', delimiter=",")
 #controller = pd.read_csv('controller.csv', index_col='controller', delimiter=",")
 block = "zx222016"
 groups = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"]
-groups = ["14", "14_mac_tx_v0"]
+#groups = ["14", "14_mac_tx_v0"]
 #groups = ["6", "7", "10", "15"]
 full_spec = ""
+date = "200129_lasted"
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer").set_index(['controller', 'icl'])
 #full_controller = pd.merge(data.reset_index(),controller.reset_index(), on="block", how="outer")
 
@@ -48,7 +49,7 @@ controller_body = jinja2.Template('''
                     }
                 }
                     ''')
-with open("pll_nonrepair_group.tcl", 'w') as tcl:
+with open("pll_nonrepair_group_" + date + ".tcl", 'w') as tcl:
     for gr in groups :
         tcl.write("set OCC_CLK_GATE({})  {} \n".format(gr, "{"))
         group = full_controller[full_controller.group == gr]
@@ -64,5 +65,5 @@ with open("pll_nonrepair_group.tcl", 'w') as tcl:
         outSpec += pattern_footer.render(group=gr)
         full_spec = full_spec + outSpec
 
-with open("pll_nonrepair_full.spec", 'w') as full:
+with open("pll_nonrepair_group_" +date+ ".spec", 'w') as full:
     full.write(full_spec)

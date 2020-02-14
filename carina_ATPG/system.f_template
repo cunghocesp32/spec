@@ -1,0 +1,31 @@
+# Netlists
+    ../../../outData/{{ block }}_scan_edt.v
+ -y /scratch/carina_pddft/carina_ce/DFT/proto/CentralFiles/rtl/blackboxes
+
+# Testbench
+{%- if "parallel" in mode %}
+    ../../patterns/pat_{{ pat }}_edt.{{ mode }}_all.v.gz
+{%- elif "serial" in mode %} 
+    ../../patterns/pat_{{ pat }}_edt.{{ mode }}_sample.v.gz
+{%- endif %}
+{%- if "tdf" in pat %}
+    clock_{{ pat }}_{{ mode }}.v
+{%- endif %}
+    DEFS.v
+    +NEWPATH=../../patterns
+
+# Libraries
+  -v  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog/tcbn07_bwph240l8p57pd_base_lvt.v
+  -v  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog/tcbn07_bwph240l8p57pd_base_svt.v
+  -v  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog/tcbn07_bwph240l8p57pd_base_ulvt.v
+  -v  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog/tcbn07_bwph240l8p57pd_lvl_lvt.v
+  -v  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog/tcbn07_bwph240l8p57pd_lvl_svt.v
+  -v  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog/tcbn07_bwph240l8p57pd_lvl_ulvt.v
+  -v  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog/tcbn07_bwph240l8p57pd_mb_lvt.v
+  -v  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog/tcbn07_bwph240l8p57pd_mb_svt.v
+  -v  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog/tcbn07_bwph240l8p57pd_mb_ulvt.v
+  -v  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog/tcbn07_bwph240l8p57pd_pm_lvt.v
+  -v  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog/tcbn07_bwph240l8p57pd_pm_svt.v
+  -v  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog/tcbn07_bwph240l8p57pd_pm_ulvt.v
+
+  -y  /projects/carina/carina_ce/RELEASE/APR/projdir7_240/libraries/verilog

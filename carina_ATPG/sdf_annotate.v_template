@@ -1,0 +1,20 @@
+module sdf_annotate ();
+  initial
+{%- if "parallel" in mode %}
+  `ifdef SDFMAX
+   $sdf_annotate ("../sdf/{{ block }}.scan_setup_wc50_125_typical.sdf.gz", {{ block }}_pat_{{ pat }}_edt_{{ mode }}_all_v_ctl.{{ block }}_inst, ,"sdf_{{ block }}_{{ pat }}_{{ mode }}_max.log", "maximum");
+
+  `elsif SDFMIN
+   $sdf_annotate ("../sdf/{{ block }}.scan_hold_bc68_125_typical.sdf.gz",  {{ block }}_pat_{{ pat }}_edt_{{ mode }}_all_v_ctl.{{ block }}_inst, ,"sdf_{{ block }}_{{ pat }}_{{ mode }}_min.log", "minimum");
+
+  `endif
+{%- elif "serial" in mode %} 
+  `ifdef SDFMAX
+   $sdf_annotate ("../sdf/{{ block }}.scan_setup_wc50_125_typical.sdf.gz", {{ block }}_pat_{{ pat }}_edt_{{ mode }}_sample_v_ctl.{{ block }}_inst, ,"sdf_{{ block }}_{{ pat }}_{{ mode }}_max.log", "maximum");
+
+  `elsif SDFMIN
+   $sdf_annotate ("../sdf/{{ block }}.scan_hold_bc68_125_typical.sdf.gz",  {{ block }}_pat_{{ pat }}_edt_{{ mode }}_sample_v_ctl.{{ block }}_inst, ,"sdf_{{ block }}_{{ pat }}_{{ mode }}_min.log", "minimum");
+
+  `endif
+{%- endif %}
+endmodule

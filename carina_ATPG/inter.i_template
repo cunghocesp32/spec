@@ -1,0 +1,10 @@
+#call fsdbDumpfile {"{{ pat }}_{{ mode }}.fsdb"}
+
+{%- if "parallel" in mode %}
+#call fsdbDumpvars 0 {"{{ block }}_pat_{{ pat }}_edt_{{ mode }}_all_v_ctl.{{ block }}_inst"}
+{%- elif "serial" in mode %} 
+#call fsdbDumpvars 0 {"{{ block }}_pat_{{ pat }}_edt_{{ mode }}_serial_v_ctl.{{ block }}_inst"}
+{%- endif %}
+
+run
+exit

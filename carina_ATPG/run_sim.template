@@ -1,0 +1,63 @@
+#!/bin/csh -f
+
+   if ($1 == min) then
+    set CORNER=SDFMIN
+    echo $CORNER
+   else if ($1 == max) then
+    set CORNER=SDFMAX
+    echo $CORNER
+   else
+    echo Usage: $0  min/max
+    exit
+   endif
+
+   setenv INCISIV_VER 14.10.008_Hotfix;
+   limit stacksize 8192
+
+   nc run -N "{{ block }}_{{ pat }}_{{ mode }}_$CORNER" -r+ RAM/80000 -r+ CORES/4 -- \
+   ncverilog  \
+   +sv  \
+   -processor 4 \
+   +ncnontcglitch \
+   +nclicq \
+   +libext+.v \
+   +ncinput+inter_{{ pat }}_{{ mode }}.i \
+   +message \
+   +update \
+   +nc64bit \
+   +nclibdirname+INCA_{{ block }}_{{ pat }}_{{ mode }}_$CORNER \
+   +status \
+   +access+rwc \
+   +ncgateloopwarn \
+   +ncaccess+c \
+   +ncgateloopwarn \
+   +nctimescale+'1ns/1ps' \
+ # +ncseq_udp_delay+5ps \
+ # +delay_mode_path \
+ # +delay_mode_distributed \
+ # +delay_mode_unit \
+ # +delay_mode_zero \
+ # +notchkmsg \
+ # +notimingcheck \
+ # +nospecify \
+ # +define+UNIT_DELAY \
+   +define+NTC+RECREM \
+   +define+no_warning \
+   {%- if "parallel" in mode %}
+   +define+PARALLEL \
+   {%- elif "serial" in mode%}
+   +define+SERIAL \
+   {%- endif %}
+   +define+$CORNER \
+   +sdf_orig_dir \
+#  +STARTPAT=                 # TK parallel patterns testbench supports start and end arguments \
+#  +ENDPAT=    \
+   -ALLOWREDEFINITION \
+   -vlogext ".v" \
+   -vlogext ".vlvs" \
+   {%- if "tdf" in pat %}
+   -tfile {{ pat }}_{{ mode }}.tfile \
+   {%- endif %}
+   -f ./system_{{ pat }}_{{ mode }}.f \
+      ./sdf_annotate_{{ pat }}_{{ mode }}.v \
+   -log verilog_{{block}}_{{ pat }}_{{ mod }}_sdf_$CORNER.log 
